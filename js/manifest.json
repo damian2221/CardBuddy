@@ -1,0 +1,38 @@
+{
+  "name": "Card Buddy",
+  "version": "1.0",
+  "description": "Web extension to managing stored credit cards.",
+  "permissions": [
+    "https://*/*",
+    "tabs",
+    "identity",
+    "activeTab",
+    "declarativeContent",
+    "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/cardbuddy16.png",
+      "32": "images/cardbuddy32.png",
+      "48": "images/cardbuddy48.png",
+      "128": "images/cardbuddy128.png"
+    }
+  },
+  "icons": {
+    "16": "images/cardbuddy16.png",
+    "32": "images/cardbuddy32.png",
+    "48": "images/cardbuddy48.png",
+    "128": "images/cardbuddy128.png"
+  },
+  "options_page": "options.html",
+  "content_scripts" : [{
+    "matches" : [ "https://*/*" ],
+    "all_frames": true,
+    "js" : ["jquery.min.js", "jquery-ui.js", "firebase.js", "firebase-app.js","firebase-messaging.js", "main.js"]
+  }],
+  "manifest_version": 2
+}
