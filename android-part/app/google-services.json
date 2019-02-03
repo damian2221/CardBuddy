@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1066083560985",
+    "firebase_url": "https://card-buddy.firebaseio.com",
+    "project_id": "card-buddy",
+    "storage_bucket": "card-buddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066083560985:android:65b84bf798acb40c",
+        "android_client_info": {
+          "package_name": "com.cardbuddy.cardbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066083560985-8hhgjjpisg21ugdc4hq7rqv039inrfkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cardbuddy.cardbuddy",
+            "certificate_hash": "9c574429608a0297d8ce3eaf2d673442d3cbb0c5"
+          }
+        },
+        {
+          "client_id": "1066083560985-h3g9ujkd7i13iio4b24mlb2co78q42ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzjcqH5j9ruUvp-08i1VFoo4imgnCTefI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066083560985-h3g9ujkd7i13iio4b24mlb2co78q42ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

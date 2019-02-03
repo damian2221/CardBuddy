@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:id="@+id/textView_dialog_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:text="Check the browser!"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/textView_dialog_confirm"
+        android:layout_marginBottom="5dp"
+        app:lottie_fileName="animation.json"
+
+        app:lottie_loop="true"
+
+        app:lottie_autoPlay="true" />
+
+    <Button
+        android:id="@+id/button_dialog_ok"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView_dialog_confirm"
+        android:text="Ok, I love you!"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_join_shape_selected"
+        />
+
+</RelativeLayout>
